@@ -1,0 +1,14 @@
+.boost-your-links-section {
+  background-color: var(--color-secondary);
+}
+
+.boost-your-links-section .container {
+  padding-top: var(--spacing-xl);
+  padding-bottom: var(--spacing-xl);
+  text-align: center;
+}
+
+.boost-your-links-section .sui-subtitle {
+  color: var(--color-white);
+  margin-bottom: var(--spacing-lg);
+}
