@@ -1,5 +1,6 @@
 @import "./theme.css";
 @import "./tokens.css";
+@import "./utility.css";
 @import "./main-section.css";
 @import "./advanced-statistics-section.css";
 @import "./boost-your-links-section.css";
@@ -22,6 +23,7 @@ html {
 
 body {
   font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
   font-weight: var(--font-weight-regular);
 }
 
@@ -43,14 +45,6 @@ a {
 
 .logo {
   height: 24px;
-}
-
-.text {
-  font-size: var(--font-size-base);
-  color: var(--color-violet-light);
-  text-align: center;
-  margin-top: var(--spacing-md);
-  margin-bottom: var(--spacing-md);
 }
 
 .title {

@@ -12,3 +12,7 @@
   color: var(--color-white);
   margin-bottom: var(--spacing-lg);
 }
+
+.boost-your-links-section h2 {
+  color: var(--color-white);
+}
