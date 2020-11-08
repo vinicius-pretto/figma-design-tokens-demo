@@ -43,6 +43,10 @@ a {
   fill: var(--color-primary);
 }
 
+.color-secondary {
+  fill: var(--color-secondary);
+}
+
 .logo {
   height: 24px;
 }
