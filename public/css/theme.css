@@ -6,15 +6,7 @@
   --font-weight-regular: 500;
   --font-weight-bold: 700;
 
-  /* Font Size */
-  --font-size-base: 1rem;
-  --font-size-md: 1.25rem;
-  --font-size-lg: 1.75rem;
-  --font-size-xl: 2.625rem;
-  --font-size-xxl: 4.625rem;
-
   /* Radius */
-  --border-radius-base: 4px;
   --border-radius-circle: 50%;
 
   /* Spacing */
