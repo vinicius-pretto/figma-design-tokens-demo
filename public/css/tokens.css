@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #2bd0d0;
-  --color-secondary: #3b3054;
+  --color-primary: #2ec59a;
+  --color-secondary: #6534d3;
   --color-error: #f46262;
   --color-dark-blue: #35323e;
   --color-dark: #232127;
@@ -8,8 +8,8 @@
   --color-violet-lighter: #f0f1f6;
   --color-white: #ffffff;
   --color-gray-20: #dedede;
-  --border-radius-base: 4px;
-  --font-size-base: 16px;
+  --border-radius-base: 24px;
+  --font-size-base: 14px;
   --font-size-md: 20px;
   --font-size-lg: 28px;
   --font-size-xl: 42px;
