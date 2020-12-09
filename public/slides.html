@@ -70,6 +70,10 @@
       margin-top: 3rem;
     }
 
+    .mr-lg {
+      margin-right: 3rem;
+    }
+
     .pagination {
       position: absolute;
       bottom: 50px;
@@ -104,7 +108,7 @@
     }
 
     .img {
-      max-height: 100%;
+      max-height: 100vh;
       border-width: 1px;
       border-style: solid;
       border-color: var(--color-dark);
@@ -113,6 +117,10 @@
     .list {
       padding-left: 32px;
       list-style: initial;
+    }
+
+    .d-flex {
+      display: flex;
     }
   </style>
 </head>
@@ -238,12 +246,14 @@
 
   <section id="page10" class="slide">
     <div class="hero">
-      <h1 class="title">Arquitetura</h1>
-      <img class="mt-lg img" src="images/figma-how-plugins-run.png" alt="Figma how plugins run">
+      <div>
+        <h1 class="title">Arquitetura</h1>
+        <img class="mt-lg img" src="images/figma-how-plugins-run.png" alt="Figma how plugins run">
 
-      <a class="pagination" href="#page11">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
-      </a>
+        <a class="pagination" href="#page11">
+          <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        </a>
+      </div>
     </div>
   </section>
 
@@ -260,16 +270,18 @@
 
   <section id="page13" class="slide">
     <div class="hero">
-      <img class="img" src="images/manifest.png" alt="Figma plugin manifest.json">
-      <a class="pagination" href="#page14">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
-      </a>
-    </div>
-  </section>
+      <div class="d-flex">
+        <figure class="mr-lg">
+          <img class="img" src="images/manifest.png" alt="Figma plugin manifest.json">
+          <figcaption>manifest.json</figcaption>
+        </figure>
 
-  <section id="page14" class="slide">
-    <div class="hero">
-      <img class="img" src="images/figma-plugin-starter.png" alt="Figma plugin starter">
+        <figure>
+          <img class="img" src="images/figma-plugin-starter.png" alt="Figma plugin starter">
+          <figcaption>files</figcaption>
+        </figure>
+      </div>
+
       <a class="pagination" href="#page15">
         <img src="images/arrow-down-icon.svg" alt="Scroll down">
       </a>
@@ -278,7 +290,11 @@
 
   <section id="page15" class="slide">
     <div class="hero">
-      <img class="img" src="images/figma-plugin-code.png" alt="Figma plugin code.js">
+      <figure>
+        <img class="img" src="images/figma-plugin-code.png" alt="Figma plugin code.js">
+        <figcaption>code.js</figcaption>
+      </figure>
+
       <a class="pagination" href="#page16">
         <img src="images/arrow-down-icon.svg" alt="Scroll down">
       </a>
@@ -296,9 +312,12 @@
 
   <section id="page17" class="slide">
     <div class="hero">
-      <h1 class="title">Validação</h1>
-      <img class="mt-lg" src="images/validacao-plugin.png"
-        alt="Gráfico: Utilizando o plugin é possível manter um estilo centralizado, podendo assim compartilhar design tokens entre times? 7 respostas, 100% sim">
+      <div>
+        <h1 class="title">Validação</h1>
+        <img class="mt-lg" src="images/validacao-plugin.png"
+          alt="Gráfico: Utilizando o plugin é possível manter um estilo centralizado, podendo assim compartilhar design tokens entre times? 7 respostas, 100% sim">
+      </div>
+
       <a class="pagination" href="#page18">
         <img src="images/arrow-down-icon.svg" alt="Scroll down">
       </a>
