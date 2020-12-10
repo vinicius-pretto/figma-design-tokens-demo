@@ -5,124 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figma Design Tokens</title>
-  <link rel="stylesheet" href="css/main.css">
-
-  <style>
-    body {
-      line-height: 1.5;
-    }
-
-    .slide {
-      height: 100vh;
-    }
-
-    .hero {
-      position: relative;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .bg-secondary {
-      background-color: var(--color-secondary);
-    }
-
-    .bg-white {
-      background-color: var(--color-white);
-    }
-
-    .bg-primary {
-      background-color: var(--color-primary);
-    }
-
-    .bg-dark {
-      background-color: var(--color-dark);
-    }
-
-    .text-white {
-      color: var(--color-white);
-    }
-
-    .text-secondary {
-      color: var(--color-secondary);
-    }
-
-    .text-align-justify {
-      text-align: justify;
-    }
-
-    .title {
-      font-size: var(--font-size-xxl);
-    }
-
-    .subtitle {
-      font-size: var(--font-size-xl);
-    }
-
-    .text {
-      max-width: 900px;
-      font-size: var(--font-size-xl);
-    }
-
-    .mt-lg {
-      margin-top: 3rem;
-    }
-
-    .mr-lg {
-      margin-right: 3rem;
-    }
-
-    .pagination {
-      position: absolute;
-      bottom: 50px;
-      right: 50px;
-      border-width: 1px;
-      border-style: solid;
-      border-color: var(--color-dark);
-      background-color: var(--color-dark);
-      display: flex;
-      padding: 4px;
-      align-items: center;
-    }
-
-    .sticky-note {
-      display: flex;
-      align-items: center;
-      width: 200px;
-      min-height: 115px;
-      background-color: #ffc2e8ff;
-      padding: 20px;
-      margin: var(--spacing-lg);
-      font-size: var(--font-size-md);
-    }
-
-    .sticky-note-container {
-      display: flex;
-      max-width: 980px;
-      align-items: center;
-      width: 100%;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-
-    .img {
-      max-height: 100vh;
-      border-width: 1px;
-      border-style: solid;
-      border-color: var(--color-dark);
-    }
-
-    .list {
-      padding-left: 32px;
-      list-style: initial;
-    }
-
-    .d-flex {
-      display: flex;
-    }
-  </style>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/slides/styles.css">
 </head>
 
 <body>
@@ -130,7 +14,7 @@
     <div class="hero">
       <h1 class="title">Figma Design Tokens</h1>
       <a class="pagination" href="#page2">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -140,16 +24,16 @@
       <h1 class="title text-white">Qual é o problema</h1>
       <h2 class="subtitle bg-white text-secondary mt-lg">Como escalar o design e manter a consistência?</h2>
       <a class="pagination text-white" href="#page3">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
 
   <section id="page3" class="slide">
     <div class="hero">
-      <img class="img" src="images/example-of-visual-inconsistency.png" alt="Many components with different style">
+      <img class="img" src="/images/example-of-visual-inconsistency.png" alt="Many components with different style">
       <a class="pagination" href="#page4">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -168,7 +52,7 @@
             href="https://www.meiuca.design/">MEIUCA</a></p>
       </div>
       <a class="pagination" href="#page5">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -177,7 +61,7 @@
     <div class="hero">
       <h1 class="title">Design Tokens</h1>
       <a class="pagination" href="#page6">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -193,16 +77,16 @@
         </ul>
       </div>
       <a class="pagination" href="#page7">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
 
   <section id="page7" class="slide">
     <div class="hero">
-      <img class="img" src="images/figma-tokens-feature-request.png" alt="Figma Tokens Feature Request">
+      <img class="img" src="/images/figma-tokens-feature-request.png" alt="Figma Tokens Feature Request">
       <a class="pagination" href="#page8">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -218,7 +102,7 @@
         </ul>
       </div>
       <a class="pagination" href="#page9">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -239,7 +123,7 @@
       </div>
 
       <a class="pagination" href="#page10">
-        <img src="images/arrow-down-icon.svg">
+        <img src="/images/arrow-down-icon.svg">
       </a>
     </div>
   </section>
@@ -248,10 +132,10 @@
     <div class="hero">
       <div>
         <h1 class="title">Arquitetura</h1>
-        <img class="mt-lg img" src="images/figma-how-plugins-run.png" alt="Figma how plugins run">
+        <img class="mt-lg img" src="/images/figma-how-plugins-run.png" alt="Figma how plugins run">
 
         <a class="pagination" href="#page11">
-          <img src="images/arrow-down-icon.svg" alt="Scroll down">
+          <img src="/images/arrow-down-icon.svg" alt="Scroll down">
         </a>
       </div>
     </div>
@@ -260,10 +144,10 @@
   <section id="page11" class="slide">
     <div class="hero">
       <a href="#page13">
-        <img class="img" src="images/figma-create-plugin-page.png" alt="Figma create plugin page">
+        <img class="img" src="/images/figma-create-plugin-page.png" alt="Figma create plugin page">
       </a>
       <a class="pagination" href="#page13">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>
@@ -272,18 +156,18 @@
     <div class="hero">
       <div class="d-flex">
         <figure class="mr-lg">
-          <img class="img" src="images/manifest.png" alt="Figma plugin manifest.json">
+          <img class="img" src="/images/manifest.png" alt="Figma plugin manifest.json">
           <figcaption>manifest.json</figcaption>
         </figure>
 
         <figure>
-          <img class="img" src="images/figma-plugin-starter.png" alt="Figma plugin starter">
+          <img class="img" src="/images/figma-plugin-starter.png" alt="Figma plugin starter">
           <figcaption>files</figcaption>
         </figure>
       </div>
 
       <a class="pagination" href="#page15">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>
@@ -291,21 +175,21 @@
   <section id="page15" class="slide">
     <div class="hero">
       <figure>
-        <img class="img" src="images/figma-plugin-code.png" alt="Figma plugin code.js">
+        <img class="img" src="/images/figma-plugin-code.png" alt="Figma plugin code.js">
         <figcaption>code.js</figcaption>
       </figure>
 
       <a class="pagination" href="#page16">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>
 
   <section id="page16" class="slide">
     <div class="hero">
-      <img src="images/tools.png" alt="React, Webpack, Typescript, Jest, Github, VSCode, Trello and Figma">
+      <img src="/images/tools.png" alt="React, Webpack, Typescript, Jest, Github, VSCode, Trello and Figma">
       <a class="pagination" href="#page17">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>
@@ -314,12 +198,12 @@
     <div class="hero">
       <div>
         <h1 class="title">Validação</h1>
-        <img class="mt-lg" src="images/validacao-plugin.png"
+        <img class="mt-lg" src="/images/validacao-plugin.png"
           alt="Gráfico: Utilizando o plugin é possível manter um estilo centralizado, podendo assim compartilhar design tokens entre times? 7 respostas, 100% sim">
       </div>
 
       <a class="pagination" href="#page18">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>
@@ -328,7 +212,7 @@
     <div class="hero">
       <h1 class="title text-white">Demonstração</h1>
       <a class="pagination" href="/">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>
@@ -344,7 +228,7 @@
       </div>
 
       <a class="pagination" href="#page20">
-        <img src="images/arrow-down-icon.svg" alt="Scroll down">
+        <img src="/images/arrow-down-icon.svg" alt="Scroll down">
       </a>
     </div>
   </section>

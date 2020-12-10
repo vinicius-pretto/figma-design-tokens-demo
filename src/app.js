@@ -7,8 +7,12 @@ const app = express();
 app.use(compression());
 app.use(express.static("public"));
 
+app.get("/en/slides", (req, res) => {
+  res.sendFile(path.resolve("public/slides/en/index.html"));
+});
+
 app.get("/slides", (req, res) => {
-  res.sendFile(path.resolve("public/slides.html"));
+  res.sendFile(path.resolve("public/slides/index.html"));
 });
 
 app.get("/", (req, res) => {
