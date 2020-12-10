@@ -19,4 +19,8 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve("public/index.html"));
 });
 
+app.get("/en", (req, res) => {
+  res.sendFile(path.resolve("public/en/index.html"));
+});
+
 module.exports = app;
