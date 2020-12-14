@@ -99,6 +99,7 @@ body {
 
 .img {
   max-height: 100vh;
+  max-width: 100%;
   border-width: 1px;
   border-style: solid;
   border-color: var(--color-dark);
